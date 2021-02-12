@@ -1,5 +1,5 @@
 /**
- * s1208 使字符串尽量相等 求最大连续数
+ * s1208 使字符串尽量相等 求最大连续数类型 滑动窗口 滚动数组
  * @param {string} s
  * @param {string} t
  * @param {number} maxCost
