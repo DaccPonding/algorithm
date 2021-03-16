@@ -1,5 +1,5 @@
 /**
- * 202
+ * 202 快乐数
  * @param {number} n
  * @return {boolean}
  */
@@ -22,7 +22,6 @@ var isHappy = function(n) {
   return fast === 1
 };
 
-// console.log(isHappy(19));
-// console.log(isHappy(82));
-// console.log(isHappy(111));
-
+console.log(isHappy(19));
+console.log(isHappy(82));
+console.log(isHappy(111));

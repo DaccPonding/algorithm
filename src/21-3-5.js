@@ -35,20 +35,20 @@ var hasCycle = function(head) {
   // 空链表和单节点链表
   if (head === null || head.next === null) return false
   // p 慢指针 q快指针
-  // let p = q = head
-  // do {
-  //   p = p.next
-  //   q = q.next.next
-  // }
-  // while (p!== q && q && q.next)
-  // return p === q
-
-  let p = head ,q = head.next
-  while (p!==q && q && q.next) {
+  let p = q = head
+  do {
     p = p.next
     q = q.next.next
   }
+  while (p!== q && q && q.next)
   return p === q
+
+  // let p = head ,q = head.next
+  // while (p!==q && q && q.next) {
+  //   p = p.next
+  //   q = q.next.next
+  // }
+  // return p === q
 };
 let a = createList([3,2,0,-4],1)
 
