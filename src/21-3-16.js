@@ -24,6 +24,7 @@ var FrontMiddleBackQueue = function() {
  */
 FrontMiddleBackQueue.prototype.pushFront = function(val) {
   this.container.unshift(val)
+
 };
 
 /**

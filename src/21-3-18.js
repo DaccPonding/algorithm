@@ -13,9 +13,10 @@
  */
 var MyCircularQueue = function(k) {
   this.container = new Array(k)
-  this.length = k
   this.head = 0
   this.tail = 0
+
+  this.length = k
   this.count = 0
 };
 
